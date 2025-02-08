@@ -3,4 +3,4 @@ spacy
 joblib
 numpy
 scikit-learn
-en-core-web-sm
+
