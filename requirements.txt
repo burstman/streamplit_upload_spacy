@@ -1,4 +1,6 @@
-streamlit>=1.0.0
-spacy>=3.0.0
-thinc>=8.0.0
---find-links https://wheelhouse.thinc.ai/
+streamlit
+spacy
+joblib
+numpy
+scikit-learn
+en-core-web-sm
