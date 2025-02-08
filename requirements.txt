@@ -1,5 +1,4 @@
-streamlit
-spacy 
-joblib 
-numpy 
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz
+streamlit>=1.0.0
+spacy>=3.0.0
+thinc>=8.0.0
+--find-links https://wheelhouse.thinc.ai/
