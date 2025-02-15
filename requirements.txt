@@ -1,7 +1,7 @@
 streamlit
-spacy
-numpy
-joblib
+spacy==3.6.1
 scikit-learn
-
-en-core-web-sm
+joblib
+numpy
+pandas
+en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.6.0/en_core_web_md-3.6.0.tar.gz
