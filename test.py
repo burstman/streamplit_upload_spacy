@@ -1,14 +1,9 @@
 import streamlit as st
-import spacy
+from spacy_streamlit import load_model
 from joblib import load
 import numpy as np
-#import os
 
-if not spacy.util.is_package("en_core_web_sm"):
-    st.info("⚙️ Downloading language model...")
-    from spacy.cli import download
-    download("en_core_web_sm")
-    st.success("✅ Model downloaded!")
+# import os
 
 
 model_name = "en_core_web_sm"
@@ -17,7 +12,7 @@ model_name = "en_core_web_sm"
 #     os.system(f"python -m spacy download {model_name}")
 
 
-nlp = spacy.load(model_name)
+nlp = load_model(model_name)
 
 
 def preprocess(text):

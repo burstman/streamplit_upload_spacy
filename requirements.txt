@@ -1,5 +1,5 @@
 streamlit
-spacy<3.6.0,>=3.5.0
+spacy_streamlit
 scikit-learn
 joblib
 numpy<1.25.0,>=1.24.0
