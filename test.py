@@ -2,13 +2,13 @@ import streamlit as st
 import spacy
 from joblib import load
 import numpy as np
-import os
+#import os
 
 
 model_name = "en_core_web_sm"
-if not spacy.util.is_package(model_name):
-    st.write("Downloading model... Please wait.")
-    os.system(f"python -m spacy download {model_name}")
+# if not spacy.util.is_package(model_name):
+#     st.write("Downloading model... Please wait.")
+#     os.system(f"python -m spacy download {model_name}")
 
 
 nlp = spacy.load(model_name)
