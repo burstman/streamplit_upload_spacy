@@ -4,6 +4,12 @@ from joblib import load
 import numpy as np
 #import os
 
+if not spacy.util.is_package("en_core_web_sm"):
+    st.info("⚙️ Downloading language model...")
+    from spacy.cli import download
+    download("en_core_web_sm")
+    st.success("✅ Model downloaded!")
+
 
 model_name = "en_core_web_sm"
 # if not spacy.util.is_package(model_name):
