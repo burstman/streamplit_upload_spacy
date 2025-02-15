@@ -1,7 +1,9 @@
 streamlit
+pip>=25.0.1
+setuptools
+wheel
 spacy==3.6.1
 scikit-learn
 joblib
 numpy
 pandas
-en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.6.0/en_core_web_md-3.6.0.tar.gz
